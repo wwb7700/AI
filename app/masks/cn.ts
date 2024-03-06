@@ -151,7 +151,8 @@ export const CN_MASKS: BuiltinMask[] = [
         date: "",
       },
     ],
-    model: "gpt-3.5-turbo-16k",
+    modelConfig: {
+      model: "gpt-3.5-turbo-16k",
       temperature: 0.5,
       max_tokens: 16000,
       presence_penalty: 0.2,
